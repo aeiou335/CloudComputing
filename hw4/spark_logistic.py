@@ -1,11 +1,3 @@
-# # Add Spark Python Files to Python Path
-# import sys
-# import os
-# SPARK_HOME = "/usr/local/spark-0.9.1" # Set this to wherever you have compiled Spark
-# os.environ["SPARK_HOME"] = SPARK_HOME # Add Spark path
-# os.environ["SPARK_LOCAL_IP"] = "127.0.0.1" # Set Local IP
-# sys.path.append( SPARK_HOME + "/python") # Add python files to Python Path
-
 
 from pyspark.mllib.classification import LogisticRegressionWithSGD
 from pyspark.mllib.regression import LabeledPoint
